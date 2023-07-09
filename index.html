@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cssV1.css">
     <link rel="stylesheet" href="css/cssV1_2.css">
+    <script src="js/logic.js"></script>
+
 </head>
 
-<body>
+<body >
     <header>
 
         <video class="video-minimalismo" autoplay muted loop preload="auto">
@@ -21,18 +23,18 @@
     </header>
 
     <div class="">
-        <div class="flex-container ">
-            <section class="card-vision">
+        <div class="flex-container"  >
+            <section class="card-vision" onclick="remplazarVision()">
                 <img class="img-vision" src="resources/img/un_draw/futuristic_interface.svg" alt="vision-img">
-                <h4>VISIÓN</h4>
+                <h4 id="text-h4-vision"  >VISIÓN</h4>
             </section>
-            <section class="card-mision">
+            <section class="card-mision" onclick="remplazarMision()">
                 <img class="img-mision" src="resources/img/un_draw/engineering_team.svg" alt="mision-img">
-                <h4>MISIÓN</h4>
+                <h4 id="text-h4-mision" >MISIÓN</h4>
             </section>
-            <section class="card-principles">
-                <img class="img-principles" src="resources/img/un_draw/project_complete.svg" alt="principles-img">
-                <h4>VALORES</h4>
+            <section class="card-principles" onclick="remplazarPrinciples()">
+                <img class="img-principles"  src="resources/img/un_draw/project_complete.svg" alt="principles-img">
+                <h4 id="text-h4-principles" >VALORES</h4>
             </section>
         </div>
         <div class="flex-container">

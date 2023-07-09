@@ -389,6 +389,7 @@ span {
     }
     .flex-container>.border-contacto{
         width: 60%;
+        font-size: 15px;
     }
     
     .flex-container {
