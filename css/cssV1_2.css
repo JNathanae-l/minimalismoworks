@@ -226,11 +226,11 @@ span {
 }
 
 
-.border-contacto>p{
+/* .border-contacto>p{
     text-align: justify;
     font-size: 20px;
 
-}
+} */
 
 .img-contacto {
     width: 80%;
@@ -259,6 +259,12 @@ span {
     transform:scale(1.1);
 
 }
+
+.flex-container>.border-contacto>.contact-description{
+    text-align: justify;
+    font-size: 20px;
+}
+
 
 .flex-container>.video{
     width: 100%;
@@ -416,12 +422,12 @@ span {
 
 @media (max-width: 450px) {
 
-    .flex-container {
+    .flex-container ,.flex-container>.border-contacto>.tittles{
         font-size: 20px;
     }
-    .flex-container>.text-intro {
+    .flex-container>.text-intro , .flex-container>.border-contacto>.contact-description{
         font-size: 15px;
-      }
+    }
 
 
 
