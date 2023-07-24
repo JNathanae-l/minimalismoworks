@@ -12,7 +12,7 @@
 
 </head>
 
-<body >
+<body>
     <header>
 
         <video class="video-minimalismo" autoplay muted loop preload="auto">
@@ -23,24 +23,42 @@
 
     <div class="">
         <div class="flex-container">
-            <p class=" text-intro">Somos una consultoría de desarrollo <strong>creativa</strong> que te ayudará a dar vida a tus ideas más audaces. Con un enfoque personalizado y una pasión por la innovación, trabajamos contigo para transformar tus conceptos en realidades impactantes y memorables. Juntos, crearemos un futuro lleno de creatividad y éxito.</p>
+            <p class=" text-intro">Somos una consultoría de desarrollo <strong>creativa</strong> que te ayudará a dar
+                vida a tus ideas más audaces. Con un enfoque personalizado y una pasión por la innovación, trabajamos
+                contigo para transformar tus conceptos en realidades impactantes y memorables. Juntos, crearemos un
+                futuro lleno de creatividad y éxito.</p>
         </div>
-        <div class="flex-container"  >
-            <section class="card-vision" >
-            <!-- <section class="card-vision" onclick="remplazarVision()"> -->
+        <div class="flex-container">
+            <!-- VISION -->
+            <section class="card-vision" id="content-principal-vision" onclick="hiddeComponentsVision()">
                 <img class="img-vision" src="resources/img/un_draw/futuristic_interface.svg" alt="vision-img">
-                <h4 id="text-h4-vision"  >VISIÓN</h4>
+                <h4 id="text-h4-vision">VISIÓN</h4>
             </section>
-            <!-- <section class="card-mision" onclick="remplazarMision()"> -->
-            <section class="card-mision" >
+            <div class="card-vision" id="allVision" onclick="showComponentsVision()">
+                <p>Ser lideres de innovación y proveer la mejor experiencia de usuario.</p>
+            </div>
+            <!-- MISION -->
+            <section class="card-mision" id="content-principal-mision" onclick="hiddeComponentsMision()">
                 <img class="img-mision" src="resources/img/un_draw/engineering_team.svg" alt="mision-img">
-                <h4 id="text-h4-mision" >MISIÓN</h4>
+                <h4 id="text-h4-mision">MISIÓN</h4>
             </section>
-            <!-- <section class="card-principles" onclick="remplazarPrinciples()"> -->
-            <section class="card-principles" >
-                <img class="img-principles"  src="resources/img/un_draw/project_complete.svg" alt="principles-img">
-                <h4 id="text-h4-principles" >VALORES</h4>
+            <div class="card-mision" id="allMision" onclick="showComponentsMision()">
+                <p>Ofrecer una amplia gama de servicios para darle vida a cada idea de forma creativa.</p>
+            </div>
+            <!-- PRINCIPLES -->
+            <section class="card-principles" id="content-principal-principles" onclick="hiddeComponentsPrinciples()">
+                <img class="img-principles" src="resources/img/un_draw/project_complete.svg" alt="principles-img">
+                <h4 id="text-h4-principles">VALORES</h4>
             </section>
+            <div class="card-principles" id="allPrinciples" onclick="showComponentsPrinciples()">
+                <p>La orientación al cliente es uno de nuestros principales valores. Nos importa profundamente entender y satisfacer las necesidades de nuestros clientes.</p>
+            </div>
+
+            <!-- <section class="card-principles">
+                <img class="img-principles" src="resources/img/un_draw/project_complete.svg" alt="principles-img">
+                <h4 id="text-h4-principles">VALORES</h4>
+            </section> -->
+
         </div>
         <div class="flex-container">
             <section class="services">
@@ -69,14 +87,14 @@
             </section>
             <section class="border-contacto">
                 <h3 class="tittles">CONTACTO</h3>
-                <p class="contact-description">No dudes en comunicarte con nosotros a través de whatsapp o correo electrónico, solamente
+                <p class="contact-description">No dudes en comunicarte con nosotros a través de whatsapp o correo
+                    electrónico, solamente
                     seleccionando alguno de los siguientes iconos.</p>
                 <section class="icon-contacto">
                     <a aria-label="Chat on WhatsApp" href="https://wa.me/5535554647" target="_blank"><img class=" wat"
                             alt="Chat on WhatsApp" src="resources/img/wa_circular.svg"></a>
-                    <a href="mailto:minimalismoworks@gmail.com?Subject=Cotización / Contratación" 
-                    target="_blank"><img class=" email" alt="Chat on WhatsApp"
-                            src="resources/img/mail_minimalist_circular.svg"></a>
+                    <a href="mailto:minimalismoworks@gmail.com?Subject=Cotización / Contratación" target="_blank"><img
+                            class=" email" alt="Chat on WhatsApp" src="resources/img/mail_minimalist_circular.svg"></a>
                 </section>
             </section>
 
@@ -85,7 +103,7 @@
         <div class="flex-container">
             <section class="video">
                 <h3 class="tittles">PORTAFOLIO</h3>
-                <iframe class="list-youtube" 
+                <iframe class="list-youtube"
                     src="https://www.youtube.com/embed/videoseries?list=PLx3Y-WVmcKCvJ9s4qYrpV46FjWFP15Xfq"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -97,12 +115,12 @@
 
 
         <footer>
-            <div class="flex-container"> 
+            <div class="flex-container">
                 <section class="footer-licenses">
                     <img class="logo-mw" src="resources/img/logo-mw.png" alt="">
                     <p class="copyright">© 2023 minimalismoworks.cyou</p>
                 </section>
-                
+
             </div>
 
 

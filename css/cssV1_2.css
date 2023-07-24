@@ -52,7 +52,24 @@
     box-shadow: 15px 15px 30px #bebebe,
         -15px -15px 30px #ffffff;
 }
+/* #text-h4-vision{
+    align-items: end;
 
+} */
+
+#allVision,#allMision,#allPrinciples{
+    display: none;
+}
+#allVision>p,#allMision>p,#allPrinciples>p{
+    width: 90%;
+    height: 80%;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* 
 [class*="card-"]::before,
 [class*="card-"]::after {
     position: absolute;
@@ -65,7 +82,7 @@
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.05);
 
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(10px);
     transition: all 0.5s;
 }
 
@@ -89,22 +106,19 @@
     height: 100%;
     border-radius: 15px;
     transition: all 0.5s;
-}
+} */
 
 
 
-.card-vision:hover:after {
+/* .card-vision:hover:after {
     text-align: center;
     font-size: 22px;
-    background-color: rgba(255, 255, 255, 0.05);
     content: "Ser lideres de innovación y proveer la mejor experiencia de usuario.";
 }
 
 .card-mision:hover:after {
     text-align: center;
     font-size: 22px;
-    background-color: rgba(255, 255, 255, 0.05);
-
     content: "Ofrecer una amplia gama de servicios para darle vida a cada idea de forma creativa.";
 }
 
@@ -112,10 +126,8 @@
 .card-principles:hover:after {
     text-align: center;
     font-size: 22px;
-    background-color: rgba(255, 255, 255, 0.05);
-
     content: "La orientación al cliente es uno de nuestros principales valores. Nos importa profundamente entender y satisfacer las necesidades de nuestros clientes.";
-}
+} */
 
 /* Services */
 .flex-container>.services{
