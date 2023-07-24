@@ -333,6 +333,9 @@ span {
         transform: translate(-50%, -50%);
 
     }
+    .flex-container ,.flex-container>.border-contacto>.tittles,.flex-container>.text-intro{
+        font-size: 20px;
+    }
 
     .flex-container {
         margin-top: 100px;
