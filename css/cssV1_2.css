@@ -286,8 +286,10 @@ span {
     width: 15%;
     width: 15%;
 }
-.copyright{
+.flex-container>.footer-licenses>.copyright{
     margin-bottom: 15px;
+    font-size: 15px;
+
 }
 
 
@@ -309,6 +311,10 @@ span {
 
     .flex-container {
         margin-top: 150px;
+    }
+
+    .flex-container>[class*="card-"]>.description-cards{
+        font-size: 20px;
     }
 
     
@@ -411,9 +417,9 @@ span {
 
 @media (max-width: 450px) {
 
-    .flex-container ,.flex-container>.border-contacto>.tittles{
+    /* .flex-container ,.flex-container>.border-contacto>.tittles{
         font-size: 20px;
-    }
+    } */
     .flex-container>.text-intro {
         font-size: 17px;
     }
