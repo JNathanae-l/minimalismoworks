@@ -52,10 +52,6 @@
     box-shadow: 15px 15px 30px #bebebe,
         -15px -15px 30px #ffffff;
 }
-/* #text-h4-vision{
-    align-items: end;
-
-} */
 
 #allVision,#allMision,#allPrinciples{
     display: none;
@@ -110,24 +106,6 @@
 
 
 
-/* .card-vision:hover:after {
-    text-align: center;
-    font-size: 22px;
-    content: "Ser lideres de innovación y proveer la mejor experiencia de usuario.";
-}
-
-.card-mision:hover:after {
-    text-align: center;
-    font-size: 22px;
-    content: "Ofrecer una amplia gama de servicios para darle vida a cada idea de forma creativa.";
-}
-
-
-.card-principles:hover:after {
-    text-align: center;
-    font-size: 22px;
-    content: "La orientación al cliente es uno de nuestros principales valores. Nos importa profundamente entender y satisfacer las necesidades de nuestros clientes.";
-} */
 
 /* Services */
 .flex-container>.services{
@@ -173,7 +151,6 @@
 
 span {
   margin: auto;
-  /* font-size: 20px; */
   color: black;
 }
 
@@ -226,7 +203,7 @@ span {
     justify-content: center;
     /* font-size: 25px; */
     /* margin-top: 200px; */
-    font-weight: bold;
+    /* font-weight: bold; */
     border-radius: 15px;
     background: white;
 }
@@ -240,12 +217,6 @@ span {
     justify-content: space-evenly;
 }
 
-
-/* .border-contacto>p{
-    text-align: justify;
-    font-size: 20px;
-
-} */
 
 .img-contacto {
     width: 80%;
@@ -440,7 +411,10 @@ span {
     .flex-container ,.flex-container>.border-contacto>.tittles{
         font-size: 20px;
     }
-    .flex-container>.text-intro , .flex-container>.border-contacto>.contact-description{
+    .flex-container>.text-intro {
+        font-size: 17px;
+    }
+    .flex-container>.border-contacto>.contact-description, .flex-container>[class*="card-"]>.description-cards{
         font-size: 15px;
     }
 
