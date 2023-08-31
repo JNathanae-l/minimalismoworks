@@ -30,6 +30,12 @@
     font-size: 25px;
 }
 
+
+
+[id*="text-h4-"] {
+    padding-bottom: 15px;
+}
+
 [class*="card-"]>img {
     width: 55%;
     position: absolute;
@@ -133,7 +139,7 @@
   width: 100%;
   height: 100%;
   transform-style: preserve-3d; 
-  animation: rotate360 60s infinite forwards linear;
+  animation: rotate360 35s infinite forwards linear;
 }
 .carousel__face { 
   position: absolute;
@@ -156,28 +162,28 @@ span {
 
 
 .carousel__face:nth-child(1) {
-    background-image: url("../resources/img/un_draw/services/web-app.svg");
+    background-image: url("../resources/img/new_un_draw/services/web-app.svg");
     transform: rotateY(  0deg) translateZ(430px); }
 .carousel__face:nth-child(2) { 
-    background-image: url("../resources/img/un_draw/services/analysis.svg");
+    background-image: url("../resources/img/new_un_draw/services/analysis.svg");
     transform: rotateY( 45deg) translateZ(430px); }
 .carousel__face:nth-child(3) {
-    background-image: url("../resources/img/un_draw/services/mobile.svg");
+    background-image: url("../resources/img/new_un_draw/services/mobile.svg");
     transform: rotateY( 90deg) translateZ(430px); }
 .carousel__face:nth-child(4) {
-  background-image: url("../resources/img/un_draw/services/ui-ux.svg");
+  background-image: url("../resources/img/new_un_draw/services/ui-ux.svg");
   transform: rotateY(135deg) translateZ(430px); }
 .carousel__face:nth-child(5) { 
-    background-image: url("../resources/img/un_draw/services/audio-visual.svg");
+    background-image: url("../resources/img/new_un_draw/services/audio-visual.svg");
     transform: rotateY(180deg) translateZ(430px); }
 .carousel__face:nth-child(6) { 
-    background-image: url("../resources/img/un_draw/services/community.svg");
+    background-image: url("../resources/img/new_un_draw/services/community.svg");
     transform: rotateY(225deg) translateZ(430px); }
 .carousel__face:nth-child(7) { 
-    background-image: url("../resources/img/un_draw/services/drone.svg");
+    background-image: url("../resources/img/new_un_draw/services/drone.svg");
     transform: rotateY(270deg) translateZ(430px); }
 .carousel__face:nth-child(8) {
-    background-image: url("../resources/img/un_draw/services/help-desk.svg");
+    background-image: url("../resources/img/new_un_draw/services/help-desk.svg");
     transform: rotateY(315deg) translateZ(430px); }
 
 
